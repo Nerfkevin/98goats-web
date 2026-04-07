@@ -7,7 +7,13 @@ export function SiteFooter() {
         <p className="text-center text-sm text-zinc-500 sm:text-left">
           © {new Date().getFullYear()} Wu-Wu. All rights reserved.
         </p>
-        <div className="flex gap-6 text-sm">
+        <div className="flex flex-wrap justify-center gap-6 text-sm sm:justify-end">
+          <Link
+            href="/wuwu/contact"
+            className="text-zinc-400 transition-colors hover:text-violet-300"
+          >
+            Contact
+          </Link>
           <Link
             href="/wuwu/terms"
             className="text-zinc-400 transition-colors hover:text-violet-300"

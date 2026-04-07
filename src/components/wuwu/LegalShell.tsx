@@ -9,7 +9,7 @@ export function LegalShell({
   children,
 }: {
   title: string;
-  effectiveDate: string;
+  effectiveDate?: string;
   icon: LucideIcon;
   children: React.ReactNode;
 }) {
@@ -52,9 +52,11 @@ export function LegalShell({
             <h1 className="bg-gradient-to-r from-violet-300 via-fuchsia-300 to-purple-300 bg-clip-text text-3xl font-bold text-transparent">
               {title}
             </h1>
-            <p className="mt-2 text-sm text-zinc-500">
-              Effective date: {effectiveDate}
-            </p>
+            {effectiveDate ? (
+              <p className="mt-2 text-sm text-zinc-500">
+                Effective date: {effectiveDate}
+              </p>
+            ) : null}
           </div>
           <div className="legal-prose text-zinc-300">{children}</div>
         </article>
