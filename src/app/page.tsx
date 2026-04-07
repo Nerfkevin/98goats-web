@@ -17,9 +17,9 @@ export default function Home() {
             "text-balance bg-gradient-to-r from-violet-200 via-fuchsia-200 to-purple-200 bg-clip-text text-4xl font-bold tracking-tight text-transparent sm:text-5xl",
           )}
         >
-          98 Goats
+          Wu-Wu
         </h1>
-        <p className="text-lg text-zinc-400 sm:text-xl">Welcome to Wu-Wu</p>
+        <p className="text-lg text-zinc-400 sm:text-xl">Welcome</p>
       </div>
     </div>
   );

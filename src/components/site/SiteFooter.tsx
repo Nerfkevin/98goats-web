@@ -9,19 +9,19 @@ export function SiteFooter() {
         </p>
         <div className="flex flex-wrap justify-center gap-6 text-sm sm:justify-end">
           <Link
-            href="/wuwu/contact"
+            href="/contact"
             className="text-zinc-400 transition-colors hover:text-violet-300"
           >
             Contact
           </Link>
           <Link
-            href="/wuwu/terms"
+            href="/terms"
             className="text-zinc-400 transition-colors hover:text-violet-300"
           >
             Terms
           </Link>
           <Link
-            href="/wuwu/privacy"
+            href="/privacy"
             className="text-zinc-400 transition-colors hover:text-violet-300"
           >
             Privacy

@@ -1,22 +1,21 @@
 import type { Metadata } from "next";
 import { Mail } from "lucide-react";
-import { LegalShell } from "@/components/wuwu/LegalShell";
+import { LegalShell } from "@/components/legal/LegalShell";
 
-const SITE = "https://www.98goats.com";
-const EMAIL = "hello@98goats.com";
+const SITE = "https://wu-wu.com";
+const EMAIL = "hello@wu-wu.com";
 
 export const metadata: Metadata = {
   title: "Contact | Wu-Wu",
   description: "Contact Wu-Wu via email.",
-  alternates: { canonical: `${SITE}/wuwu/contact` },
+  alternates: { canonical: `${SITE}/contact` },
 };
 
 export default function ContactPage() {
   return (
     <LegalShell title="Contact" icon={Mail}>
       <p>
-        Questions about Wu-Wu? Reach us at the address below. We&apos;ll get back
-        to you when we can.
+        Questions about Wu-Wu? Email us — we&apos;ll get back to you when we can.
       </p>
       <p className="mt-8 text-center">
         <a

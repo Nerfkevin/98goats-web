@@ -10,8 +10,8 @@ const nunito = Nunito({
 
 export const metadata: Metadata = {
   title: "Wu-Wu",
-  description: "Wu-Wu — hosted at 98goats.com",
-  metadataBase: new URL("https://www.98goats.com"),
+  description: "Wu-Wu — wu-wu.com",
+  metadataBase: new URL("https://wu-wu.com"),
 };
 
 export default function RootLayout({
