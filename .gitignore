@@ -1,3 +1,6 @@
+# local reference (has its own deps; not deployed from this root)
+/pett-web/
+
 # dependencies
 /node_modules
 /.pnp

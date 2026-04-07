@@ -1,0 +1,7 @@
+Drop your logo in this folder as:
+
+  logo.png   (recommended — transparent PNG, ~512px wide max is plenty)
+
+The site loads it from /brand/logo.png
+
+Optional: add logo@2x.png and we can wire srcset later.

@@ -9,8 +9,8 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "98 Goats",
-  description: "98 Goats",
+  title: "Wu-Wu",
+  description: "Wu-Wu — hosted at 98goats.com",
   metadataBase: new URL("https://www.98goats.com"),
 };
 
@@ -21,7 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${nunito.variable} min-h-screen font-nunito`}>
+      <body
+        className={`${nunito.variable} min-h-screen bg-zinc-950 font-nunito text-zinc-100`}
+      >
         {children}
       </body>
     </html>
